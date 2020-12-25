@@ -29,7 +29,7 @@ find_package(GTest CONFIG REQUIRED)
 hunter_add_package(gRPC)
 find_package(gRPC CONFIG REQUIRED)
 
-set(API_GENERATED_DIR ${CMAKE_CURRENT_SOURCE_DIR}/third-party/echo/ccpkg)
+set(API_GENERATED_DIR ${CMAKE_CURRENT_SOURCE_DIR}/third-party/suggest/ccpkg)
 
 set(PROTO_GENERATED_SOURCES
   "${API_GENERATED_DIR}/suggestService.pb.cc"
